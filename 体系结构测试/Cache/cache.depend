@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1616578154 source:d:\并行代码\矩阵内积优化\main.cpp
+	<iostream>
+	<ctime>
+	<stdlib.h>
+	<windows.h>
+
