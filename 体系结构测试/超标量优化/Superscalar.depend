@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1616682285 source:d:\并行代码\超标量优化\main.cpp
+	<iostream>
+	<ctime>
+	<stdlib.h>
+	<windows.h>
+
