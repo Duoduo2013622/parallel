@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1649753959 source:c:\users\cuiji\desktop\simd_avx-512\main.cpp
+	<iostream>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	<tmmintrin.h>
+	<smmintrin.h>
+	<nmmintrin.h>
+	<windows.h>
+	<fstream>
+
