@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1651751242 source:c:\users\cuiji\desktop\bing_pthread\pthread8\main.cpp
+	<iostream>
+	<windows.h>
+	<fstream>
+	<stdlib.h>
+	<malloc.h>
+	<pthread.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	<tmmintrin.h>
+	<smmintrin.h>
+	<nmmintrin.h>
+

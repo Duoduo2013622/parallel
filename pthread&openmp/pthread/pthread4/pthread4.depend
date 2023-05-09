@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1651676841 source:c:\users\cuiji\desktop\bing_pthread\pthread4\main.cpp
+	<iostream>
+	<windows.h>
+	<fstream>
+	<stdlib.h>
+	<malloc.h>
+	<pthread.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	<tmmintrin.h>
+	<smmintrin.h>
+	<nmmintrin.h>
+
