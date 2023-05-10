@@ -131,9 +131,7 @@ void *threadfunc(void *param)
 }
 int main()
 {
-//    ofstream result("C:\\Users\\cuiji\\Desktop\\bing_pthread\\bing_pthread2_21.txt");
-//    result<<"串行高斯 pthread_动态_循环分组"<<endl;
-//    while(n<=max_n)
+
 
 
         cout<<n<<endl;

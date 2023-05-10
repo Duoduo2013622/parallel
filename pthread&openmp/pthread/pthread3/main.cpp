@@ -162,8 +162,6 @@ void *threadFunc(void *param)
 
 int main()
 {
-//    ofstream result("C:\\Users\\cuiji\\Desktop\\bing_pthread\\bing_pthread3_2.txt");
-//    result<<"´®ÐÐ¸ßË¹ pthread_¾²Ì¬ÐÅºÅÁ¿_Ñ­»··Ö×é"<<endl;
 
     while(n<=max_n)
     {
@@ -207,20 +205,20 @@ int main()
             }
             A[k][k]=1.0;
 
-            //¿ªÊ¼»½ÐÑÏß³Ì
+            //ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½ï¿½ß³ï¿½
             for(int t_id=0;t_id<threadcount;t_id++)
             {
 
                 sem_post(&sem_workerstart[t_id]);
             }
-            //Ö÷Ïß³ÌË¯Ãß
+            //ï¿½ï¿½ï¿½ß³ï¿½Ë¯ï¿½ï¿½
 
             for(int t_id=0;t_id<threadcount;t_id++)
             {
 
                 sem_wait(&sem_main);
             }
-            //Ö÷³ÌÐòÔÙ´Î»½ÐÑ
+            //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ù´Î»ï¿½ï¿½ï¿½
 
             for(int t_id=0;t_id<threadcount;t_id++)
             {

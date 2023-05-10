@@ -141,7 +141,7 @@ void *threadFunc(void *param)
             }
         }
 
-        //Ñ­»·¹Ï·ÖÈÎÎñ
+        //Ñ­ï¿½ï¿½ï¿½Ï·ï¿½ï¿½ï¿½ï¿½ï¿½
         for(int i=k+1+t_id;i<n;i+=threadcount)
         {
             for(int j=k+1;j<n;j++)
@@ -152,7 +152,7 @@ void *threadFunc(void *param)
         }
 
 
-        //ËùÓÐÏß³Ì½øÈëÏÂÒ»ÂÖ
+        //ï¿½ï¿½ï¿½ï¿½ï¿½ß³Ì½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½
         if(t_id==0)
         {
             for(int i=0;i<threadcount-1;i++)
@@ -174,8 +174,8 @@ void *threadFunc(void *param)
 }
 int main()
 {
-    ofstream result("C:\\Users\\cuiji\\Desktop\\bing_pthread\\bing_pthread6.txt");
-    result<<"pthread_¾²Ì¬ÐÅºÅÁ¿¸Ä_Ñ­»··Ö×é"<<endl;
+    ofstream result("C:\\Users\\86153\\Desktop\\pthread6.txt");
+    result<<"pthread_ï¿½ï¿½Ì¬ï¿½Åºï¿½ï¿½ï¿½ï¿½ï¿½_Ñ­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"<<endl;
     while(n<=max_n)
     {
 
@@ -198,7 +198,7 @@ int main()
 
     }
 
-    //´´½¨Ïß³Ì
+    //ï¿½ï¿½ï¿½ï¿½ï¿½ß³ï¿½
     pthread_t* handles;
     handles=(pthread_t*)malloc(threadcount*sizeof(pthread_t));
     threadParam_t* param=(threadParam_t*)malloc(threadcount*sizeof(threadParam_t));

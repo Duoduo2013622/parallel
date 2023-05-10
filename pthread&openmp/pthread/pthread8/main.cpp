@@ -129,7 +129,7 @@ void *threadFunc(void *param)
 
 
 
-        //Ñ­»·¹Ï·ÖÈÎÎñ
+        //Ñ­ï¿½ï¿½ï¿½Ï·ï¿½ï¿½ï¿½ï¿½ï¿½
         int t=((int)((n-k-1)/threadcount)+1)*t_id;
     int I=k+t+1;
     int i=I;
@@ -152,7 +152,7 @@ void *threadFunc(void *param)
 //        }
 
 
-        //µÚ¶þ¸öÍ¬²½µã
+        //ï¿½Ú¶ï¿½ï¿½ï¿½Í¬ï¿½ï¿½ï¿½ï¿½
         pthread_barrier_wait(&barrier_Elimination);
     }
 
@@ -160,8 +160,8 @@ void *threadFunc(void *param)
 }
 int main()
 {
-    ofstream result("C:\\Users\\cuiji\\Desktop\\bing_pthread\\bing_pthread8_2.txt");
-    result<<"pthread_barrier_·Ö¿ì·Ö×é"<<endl;
+    ofstream result("C:\\Users\\86153\\Desktop\\pthread8_2.txt");
+    result<<"pthread_barrier_ï¿½Ö¿ï¿½ï¿½ï¿½ï¿½"<<endl;
     while(n<=max_n)
     {
 
@@ -178,7 +178,7 @@ int main()
     //
     pthread_barrier_init(&barrier_Divsion,NULL,threadcount);
     pthread_barrier_init(&barrier_Elimination,NULL,threadcount);
-    //´´½¨Ïß³Ì
+    //ï¿½ï¿½ï¿½ï¿½ï¿½ß³ï¿½
     pthread_t* handles;
     handles=(pthread_t*)malloc(threadcount*sizeof(pthread_t));
     threadParam_t* param=(threadParam_t*)malloc(threadcount*sizeof(threadParam_t));
