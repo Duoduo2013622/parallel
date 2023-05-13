@@ -1,0 +1,5 @@
+﻿  源.cpp
+C:\Users\cuiji\Desktop\openMP\openMP2\openMP2\源.cpp(43,16): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+C:\Users\cuiji\Desktop\openMP\openMP2\openMP2\源.cpp(121,14): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+C:\Users\cuiji\Desktop\openMP\openMP2\openMP2\源.cpp(133,14): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+  openMP2.vcxproj -> C:\Users\cuiji\Desktop\openMP\openMP2\x64\Debug\openMP2.exe

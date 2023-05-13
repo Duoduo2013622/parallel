@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "bf4d33da-51f1-451c-9eab-1918048b8fe9": {
+      "ProjectGuid": "bf4d33da-51f1-451c-9eab-1918048b8fe9",
+      "DisplayName": "openMP1",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
